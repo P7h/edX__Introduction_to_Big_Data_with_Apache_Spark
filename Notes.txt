@@ -1,0 +1,25 @@
+mkdir D:/edX_Spark/vagrant
+touch Vagrantfile
+Download vagrant file from https://raw.githubusercontent.com/spark-mooc/mooc-setup/master/Vagrantfile.
+wget --no-check-certificate https://raw.githubusercontent.com/spark-mooc/mooc-setup/master/Vagrantfile
+
+================================================
+
+vagrant up
+vagrant ssh
+
+http://localhost:8001
+
+
+vagrant halt
+
+**NEVER:
+vagrant destroy
+
+================================================
+
+ssh -p 2222 vagrant@localhost
+vagrant
+
+su - 
+vagrant
